@@ -1,0 +1,218 @@
+*{
+    box-sizing: border-box;
+}
+#header{
+    height :100px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.f1{
+    text-align:left;
+    color: red;
+    font-size:x-large;
+    margin-left: 10%;
+    
+}
+.f{
+    border-left:1px solid  black;
+    border-radius: 5px;
+    background-color: darkorange;
+    width:100%;
+    
+
+}
+#footer{
+    width:100%;
+    height:fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+#space{
+    height: 20px;
+    width: 100vh;
+}
+#logo{
+    width: 10%;
+    height:10%;
+}
+#names{
+    font-size:50px;
+    color: crimson;
+    text-shadow: 3px 3px black;
+    animation: schoolname;
+    animation-duration:3s;
+    animation-delay: 1s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+    
+
+}
+#content{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#tdiv{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+#name{
+    margin-top: 1%;
+    width:100%;
+    text-align: center;
+}
+.img:hover{
+    transform: scale(1.3);
+}
+
+#banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+#tid{
+    width: 1000px;
+    height:fit-content;
+}
+.img{
+  width: 22%;
+  height: fit-content;
+}
+#para{
+    width:60%;
+    height: fit-content;
+}
+#links{
+    width: fit-content;
+}
+#album{
+    display: flex;
+    flex-direction: row;
+    width:min-content;
+    height: 300px;
+}
+.logoimg{
+    border-radius: 50%;
+    margin-top: 10px;
+    width: 110px;
+    height:110px;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+#main{
+    background-color:ivory;
+    margin:0px;
+    padding: 0px;
+    height:fit-content;
+    margin-right: 15%;
+    border: 5px solid black;
+    border-radius: 15px;
+    width: min-content;
+    display: flex;
+    flex-direction: column;
+}
+#navi{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: space-around;
+    width:100%;
+    height:45px;
+    background-color: black;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    background-color: white;
+    color: black;
+}
+@keyframes schoolname{
+    0%{
+        color:crimson;
+        
+    }
+    50%{
+        color:blue;
+        
+        
+        
+    }
+    100%{
+        color:chartreuse;
+        
+        
+
+    }
+}
+#im{
+   margin-left: 10%;
+}
+#txt{
+    width: 45%;
+    height: fit-content;
+}
+.abt{
+    display: flex;
+    flex-direction: row;
+    align-content:space-between;
+    margin-left: 15%;
+    width: 100%;
+    height: fit-content;
+}
+#form{
+    
+    background-color: aqua;
+    width:60%;
+    height:fit-content;
+    border:4px solid gray;
+    border-radius: 10px;
+    margin-left:22%;
+
+}
+.inputs{
+    margin-top: 4%;
+    margin-left: 14%;
+}
+input[type='text'],[type='email'],[type='number']{
+    border-radius: 2px;
+    border-radius: 5px;
+    background-color:gainsboro;
+}
+input[type='submit'],[type ='button']{
+    border-radius: 5px;
+    width:fit-content;
+    height:30px;
+    color: black;
+    margin-top: 40px;
+    margin-bottom: 5px  ;
+    background-color: limegreen;
+}
+#btn{
+    width: fit-content;
+    background-color: greenyellow;
+    border-radius: 5px;
+    color: aliceblue;
+}
+span{
+    color: red;
+}
+#button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+

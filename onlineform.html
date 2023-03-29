@@ -1,0 +1,126 @@
+<?php
+echo '
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SR Public School</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id = "main">
+        <div id="header">
+            <div id ="logo"> 
+                <img class ="logoimg" src="./images/logo.jpg" alt="SRPS"></div>
+            <div id ="name"> <span id="names" ">SR PUBLIC SCHOOL</span> </div>
+        </div>
+        <div id ="space">.</div>
+        <div id ="navi">
+            <div class="n">
+                <div class="na"><a href="index.html"> Home</a></div>
+            </div>
+            <div class="n">
+                <div class="na"><a href="aboutus.html"> About Us</a></div>
+            </div>
+            <div class="n">
+                <div class="na"><a href="timetable.html"> Time Table</a></div>
+            </div>
+            <div class="n">
+                <div class="na"><a href="onlineform.html">Apply Online</a></div>
+            </div>
+            <div class="n">
+                <div class="na"><a href="academic.html"> Academic</a></div>
+            </div>
+            <div class="n"> <div class="na"><a href="rules.html"> Rules And Regulations</a></div></div>
+            <div class="n">
+                <div class="na"><a href="contactus.html"> Contact Us</a></div>
+            </div>
+        </div>
+        <form action="database.php" method="post">  <div><h1 style="text-align: center;"> Registration Form</h1></div>
+            <div id="form">
+               <div class ="inputs">
+                   Enter Your Name:<input type="text" name="u_name" id="" required style="margin-right: 0px;margin-left: 8%;"><span>*</span>
+               </div>
+               <div class ="inputs">
+                Enter Father\'s Name:<input type="text" name="u_fname" id="" required style="margin-right: 0px;margin-left: 5%;"><span>*</span>
+                </div>
+                <div class ="inputs">
+                    Enter Mother\'s Name:<input type="text" name="u_mname" id="" required style="margin-right: 0px;margin-left: 4%;"><span>*</span>
+                </div>
+                <div class = "inputs">
+                    Enter UID No. :<input type="number" name="u_uid" id="" required style="margin-right: 0px;margin-left: 9%;"><span>*</span>
+                </div>
+                <div class = "inputs">
+                    E-Mail Address :<input type="email" name="u_email" id="" required style="margin-right: 0px;margin-left: 9%;"><span>*</span>
+                </div>
+                <div class="inputs">
+                    Enter Address :<input type="text" name="u_address" id="" required style="margin-right: 0px;margin-left: 10%;"><span>*</span>
+                </div>
+                <div class="inputs">
+                    Enter Mob. No. :<input type="number" name="u_mobile" id="" required style="margin-right: 0px;margin-left: 9%;"><span>*</span>
+                </div>
+                <div class=" inputs">
+                    Date Of Birth: <input type="date" name="u_dob" id="" required style="margin-right: 0px;margin-left: 12%;"><span>*</span>
+                </div>
+                <div class="inputs">
+                    Upload T.C :<input type="file" name="" id=""  style="margin-right: 0px;margin-left: 14%;">
+                </div>
+                <div class ="inputs">
+                    Choose Class:
+                     <select name="" id="" style="margin-left: 12%;">
+                         <option value="none" disabled selected >--Choose Class--</option>
+                         <option value="pg" required>PLAY GROUP</option> 
+                         <option value="nersury">Nersury</option>
+                         <option value="lkg">L.K.G</option>
+                         <option value="ukg">U.K.G</option>
+                         <option value="first">I</option>
+                         <option value="second">II</option>
+                         <option value="third">III</option>
+                         <option value="forth">IV</option>
+                         <option value="fifth">V</option>
+                         <option value="sixth">VI</option>
+                         <option value="seventh">VII</option>
+                         <option value="eighth">VIII</option>
+                         <option value="ninth">IX</option>
+                         <option value="tenth">X</option>
+                         <option value="eleventh">XI</option>
+                         <option value="twelth">XII</option>
+                     </select>
+                    <span>* </span>
+                </div>
+            <div style="margin-left: 40%;"> <input type="submit" value="Register"></div>
+            </div>
+             
+       </form>
+        <div id ="footer">
+            <div class ="f"><span class="f1">Import Links!</span> <br> <br>
+                <a style ="color: black; margin-left:10% ; " href="directormessage.html">• Director Message</a> <br>
+                <a style ="color: black; margin-left:10% ;" href="principalmessage.html">• Principal Message</a> <br>
+                <a style ="color: black; margin-left:10% ;" href="p&p.html">• Privacy & Policy Message</a> <br>
+                <a style ="color: black; margin-left:10% ;" href="aboutus.html">• About Us</a> <br>
+                <a style ="color: black; margin-left:10% ;" href="https://www.google.com/maps/place/S+R+PUBLIC+SCHOOL+(+Branch-II+)+Srsngo.org+Head+Office/@27.458502,77.677109,16z/data=!4m6!3m5!1s0x397376b657193447:0xa815a5237c5a99ba!8m2!3d27.4585106!4d77.6768986!16s%2Fg%2F1hc5pz18x?hl=en-US">• Location</a> <br>
+                
+            </div>
+            <div class="f"><span class="f1">Address!</span><br>
+                  <span style="font-weight: bold; margin-left: 10%;">S.R Public School, Mathura</span> <br> 
+                  <pre>       Old A.R.T.O. Office Compound,
+       NH-2, Near SBI Bank, Mathura (U.P.) -281001
+       Phone : 0565-2431515 , 9457229999
+       Fax: 0565-2431414</pre>
+                  <span style="font-weight: bold; margin-left: 10%;"> Email : srpublicschoolmathura@gmail.com</span><br>
+                  <span style="font-weight: bold; margin-left: 10%;"> Website : <a style="color: blue;" href="http://www.srps.in">www.srps.in</a></span><br></div>
+                  
+        </div>
+        <div id="cp" style="text-align: center;">
+            Copyright © All Rights Reserved 2022-23 | Developed by : <span>Aman Kumar Dagur</span> 
+        </div>
+
+    </div>
+</body>
+</html>
+
+
+';
+?>

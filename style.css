@@ -273,11 +273,8 @@ span
     background-color:rgb(243, 194, 0);
     color: black;
 }
-.nvbar{
-    background-color: black;
-    color:white;
+#icon{
     display: none;
-    
 }
 .n1:hover
 
@@ -317,11 +314,11 @@ span
         justify-content: center;
         align-items: center;
     }
+    #icon{
+        display: block;
+    }
     #navi{
         display: none;
-    }
-    .nvbar{
-        display: block;
     }
     #navbar{
         display:none;
@@ -333,6 +330,7 @@ span
     }
 
     .n1{
+        display: none;
         margin-left: 35%;
     }
     

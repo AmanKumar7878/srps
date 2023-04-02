@@ -169,7 +169,9 @@ a:hover
 {
     background-color:rgb(243, 194, 0);
 }
-
+#navbar{
+    display: none;
+}
 #im
 {
    margin-left: 10%;
@@ -266,10 +268,25 @@ span
 
 }
 .n:hover
+
 {
     background-color:rgb(243, 194, 0);
     color: black;
 }
+.nvbar{
+    background-color: black;
+    color:white;
+    display: none;
+    
+}
+.n1:hover
+
+{
+    background-color:rgb(243, 194, 0);
+    color: black;
+    border-radius: 20px;
+}
+
 .n a
 {
     width:100%;
@@ -300,6 +317,25 @@ span
         justify-content: center;
         align-items: center;
     }
+    #navi{
+        display: none;
+    }
+    .nvbar{
+        display: block;
+    }
+    #navbar{
+        display:none;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 100%;
+        height:800px;
+        
+    }
+
+    .n1{
+        margin-left: 35%;
+    }
+    
     #para
     {
         width: fit-content;
@@ -393,46 +429,4 @@ span
     
     
     
-}
-@media only screen and (max-width: 300px) 
-{
-    .if iframe
-    {
-        width:1000px;
-        height:500px;
-        
-    }
-    .if a img
-    {
-        width:1000px;
-        height:500px;
-        
-    }
-    #album
-    {
-        display:grid;
-        justify-content: center;
-        width:100%;
-
-    }
-    #album img
-    {
-        width:1000px;
-        height:800px;
-    }
-    #footer
-    {
-        flex-direction: column;
-        display: block;
-        justify-content: center;
-        font-size: 25px;
-        width:1000px;
-        margin-left: 10%;
-    
-        
-    }
-    .f
-    {
-        background-color:ivory;
-    }
 }

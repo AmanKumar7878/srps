@@ -169,7 +169,7 @@ a:hover
 {
     background-color:rgb(243, 194, 0);
 }
-#navbar{
+.navbar{
     display: none;
 }
 #im
@@ -302,6 +302,7 @@ span
         height:100px;
         margin-left: 10px;
     }
+    
     #names
     {
         font-size:90px;
@@ -318,19 +319,18 @@ span
         display: block;
     }
     #navi{
-        display: none;
-    }
-    #navbar{
         display:none;
+    }
+    .navbar{
+        display:block;
         flex-direction: column;
         justify-content: space-evenly;
-        width: 100%;
         height:800px;
+        width:100%;
         
     }
 
     .n1{
-        display: none;
         margin-left: 35%;
     }
     
@@ -424,6 +424,7 @@ span
         display: grid;
         
     }
+    
     
     
     

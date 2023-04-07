@@ -9,7 +9,7 @@ echo '
     <title>SR Public School</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
-    <script src="./script.js"></script>
+    
 </head>
 <body>
     <div id = "main">
@@ -21,10 +21,13 @@ echo '
                 <div id="name">SR PUBLIC SCHOOL</div> 
             </div>
         </div>
-        <div id="icon" style="background-color: black; color: aliceblue; font-size: 45px;" >
-            <a href=""><i class="fa fa-bars" aria-hidden="true" style="margin-left: 0px;"onclick = "myFunc()"></i></a>
+        <div id="icon" style="background-color: black; color: aliceblue; font-size: 45px;" > 
+            <input  type="checkbox" name="checkbox" id="click" style="color: aliceblue; width: 100px;">
+            <label id="lbl" for="click"><i class="fa fa-bars" aria-hidden="true" style="margin-left: 0px;"></i>
+            </label>
+            
         </div>
-        <div id="navbar" style="background-color: black; color: aliceblue; font-size: 45px;">
+        <div class="navbar" style="background-color: black; color: aliceblue; font-size: 45px;">
             <div class="n1">
                 <a href="index.html"><i class="fa fa-home"></i>Home</a>
             </div>
@@ -144,6 +147,7 @@ echo '
         </div>
 
     </div>
+    <script src="./script.js"></script>
 </body>
 </html>
 

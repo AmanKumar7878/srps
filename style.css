@@ -181,6 +181,10 @@ a:hover
     width: 45%;
     height: fit-content;
 }
+.txt1{
+    width: 70%;
+    height: fit-content;
+}
 .abt
 {
     display: flex;
@@ -221,6 +225,7 @@ input[type='text'],[type='email'],[type='number']
     border-radius: 5px;
     background-color:gainsboro;
 }
+
 input[type='submit'],[type ='button']
 {
     border-radius: 8px;
@@ -298,7 +303,7 @@ span
     text-shadow: 1px 1px black; 
     font-size:x-large; 
     font-weight: bolder;
-    margin-left: 15%;
+    margin-left: 12%;
 }
 @media only screen and (max-width: 500px) 
 {
@@ -468,7 +473,53 @@ span
         height: fit-content;
     }
     .inputs{
-        font-size: 35px;
+        font-size: 40px;
     }
-
+    form h1{
+        font-size: 60px;
+    }
+    input[type='text'],[type='email'],[type='number'] 
+    {
+    border-radius: 8px;
+    height:45px;
+    width:300px;
+    margin-left: 0% !important; 
+   }
+   input[type='tel']
+   {
+    border-radius: 8px;
+    height:45px;
+    width:300px;
+    margin-left: 0% !important; 
+   }
+   input[type='submit'],[type ='button']
+   {
+    border-radius: 8px;
+    margin-top: 60px;
+    margin-bottom: 8px  ;
+    font-size: 35px;
+    margin-left: 0%;
+    width:200px;
+   }
+   select{
+    width:200px;
+    margin-left: 2% !important;
+    height:45px;
+    font-size: 30px;
+   }
+   .inputs input{
+    width:350px;
+    font-size: 30px;
+    margin-left: 0% !important;
+   }
+   input[type='file']{
+    font-size: 30px;
+    margin-left: 0% !important;
+   }
+   #form
+   {
+    width:80%;
+    margin-left:9%;
+   }
+   
 }

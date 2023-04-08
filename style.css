@@ -176,7 +176,7 @@ a:hover
 {
    margin-left: 10%;
 }
-#txt
+.txt
 {
     width: 45%;
     height: fit-content;
@@ -292,6 +292,13 @@ span
     justify-content: center;
     align-items: center;
     border-radius: 20px;
+}
+#about,#mission,#vision,#pm,#dm{
+    color:blue;
+    text-shadow: 1px 1px black; 
+    font-size:x-large; 
+    font-weight: bolder;
+    margin-left: 15%;
 }
 @media only screen and (max-width: 500px) 
 {
@@ -447,6 +454,18 @@ span
     }
     p{
         font-size: xx-large;
+    }
+    .txt{
+        font-size: 25px;
+    }
+    #about,#mission,#vision,#pm,#dm{
+        
+        font-size:xx-large; 
+    }
+    .txt1{
+        font-size: 25px;
+        width: 80%;
+        height: fit-content;
     }
 
 }

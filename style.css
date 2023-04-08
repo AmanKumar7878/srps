@@ -331,8 +331,9 @@ span
     }
 
     .n1{
-        margin-left: 35%;
+        margin-left: 3%;
     }
+
 
     #para
     {
@@ -443,6 +444,9 @@ span
     i #toggle{
         width: 150px;
         height:150px;
+    }
+    p{
+        font-size: xx-large;
     }
 
 }

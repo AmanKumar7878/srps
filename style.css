@@ -322,11 +322,11 @@ span
         display:none;
     }
     .navbar{
-        display:block;
+        display:none;
         flex-direction: column;
-        justify-content: space-evenly;
         height:800px;
         width:100%;
+        justify-content:space-evenly;
         
     }
 

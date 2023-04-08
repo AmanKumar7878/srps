@@ -1,5 +1,4 @@
-<?php
-echo '
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,12 +21,12 @@ echo '
             </div>
         </div>
         <div id="icon" style="background-color: black; color: aliceblue; font-size: 45px;" > 
-            <input  type="checkbox" name="checkbox" id="click" style="color: aliceblue; width: 100px;">
-            <label id="lbl" for="click"><i class="fa fa-bars" aria-hidden="true" style="margin-left: 0px;"></i>
-            </label>
+        
+            <i id = "toggle" class="fa fa-bars" aria-hidden="true" style="margin-left: 0px;" onclick="myFunction()"></i>
+        
             
         </div>
-        <div class="navbar" style="background-color: black; color: aliceblue; font-size: 45px;">
+        <div class="navbar"  id ="nvbr" style="background-color: black; color: aliceblue; font-size: 45px;">
             <div class="n1">
                 <a href="index.html"><i class="fa fa-home"></i>Home</a>
             </div>
@@ -147,10 +146,16 @@ echo '
         </div>
 
     </div>
-    <script src="./script.js"></script>
+    <script>
+        function myFunction() {
+            if(document.getElementById("nvbr").style.display == "flex"){
+                document.getElementById("nvbr").style.display = "none";
+            }
+            else{
+                document.getElementById("nvbr").style.display = "flex";
+            }
+        }
+        </script>
+    <!-- <script src="./script.js"></script> -->
 </body>
 </html>
-
-
-';
-?>

@@ -70,16 +70,16 @@ echo '
         <form action="database.php" method="post">  <div><h1 style="text-align: center; margin-top: 30px;margin-bottom: 30px;"> Registration Form</h1></div>
             <div id="form">
                <div class ="inputs">
-                   Enter Your Name: <span>*</span><input type="text" name="u_name" id="" required style="margin-right: 0px;margin-left: 8%;">
+                   Enter Your Name: <span>*</span><input type="text" name="u_name" id="" required style="margin-right: 0px;margin-left: 8%;"pattern="[A-Za-z]{3,32}"  maxlength="32">
                </div>
                <div class ="inputs">
-                Enter Father\'s Name:<span>*</span><input type="text" name="u_fname" id="" required style="margin-right: 0px;margin-left: 5%;">
+                Enter Father\'s Name:<span>*</span><input type="text" name="u_fname" id="" required style="margin-right: 0px;margin-left: 5%;"pattern="[A-Za-z]{3,32}"  maxlength="32">
                 </div>
                 <div class ="inputs">
-                    Enter Mother\'s Name:<span>*</span><input type="text" name="u_mname" id="" required style="margin-right: 0px;margin-left: 4%;">
+                    Enter Mother\'s Name:<span>*</span><input type="text" name="u_mname" id="" required style="margin-right: 0px;margin-left: 4%;" pattern="[A-Za-z]{3,32}" maxlength="32">
                 </div>
                 <div class = "inputs">
-                    Enter UID No. :<span>*</span><input type="number" name="u_uid" id="" required style="margin-right: 0px;margin-left: 11%;">
+                    Enter UID No. :<span>*</span><input type="number" name="u_uid" id="" required style="margin-right: 0px;margin-left: 11%;" pattern ="[0-9]{12}">
                 </div>
                 <div class = "inputs">
                     E-Mail Address :<span>*</span><input type="email" name="u_email" id="" required style="margin-right: 0px;margin-left: 10%;">
@@ -88,7 +88,8 @@ echo '
                     Enter Address :<span>*</span><input type="text" name="u_address" id="" required style="margin-right: 0px;margin-left: 11%;">
                 </div>
                 <div class="inputs">
-                    Enter Mob. No. :<span>*</span><input type="number" name="u_mobile" id="" required style="margin-right: 0px;margin-left: 9%;">
+                    Enter Mob. No. :<span>*</span><input type="tel" name="u_mobile" id=""  pattern = "[0-9]{10}" required style="margin-right: 0px;margin-left: 9%; border-radius: 5px;
+                    background-color:gainsboro;">
                 </div>
                 <div class=" inputs">
                     Date Of Birth: <span>*</span><input type="date" name="u_dob" id="" required style="margin-right: 0px; margin-left: 10%;">

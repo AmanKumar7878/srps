@@ -218,7 +218,6 @@ a:hover
 }
 input[type='text'],[type='email'],[type='number']
 {
-    border-radius: 2px;
     border-radius: 5px;
     background-color:gainsboro;
 }

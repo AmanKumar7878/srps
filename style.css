@@ -453,19 +453,22 @@ span
         height:150px;
     }
     p{
-        font-size: xx-large;
+        font-size: 35px;
     }
     .txt{
-        font-size: 25px;
+        font-size: 35px;
     }
     #about,#mission,#vision,#pm,#dm{
         
-        font-size:xx-large; 
+        font-size:55px; 
     }
     .txt1{
-        font-size: 25px;
+        font-size: 35px;
         width: 80%;
         height: fit-content;
+    }
+    .inputs{
+        font-size: 35px;
     }
 
 }

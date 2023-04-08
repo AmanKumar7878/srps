@@ -316,6 +316,7 @@ span
     }
     #icon{
         display: block;
+        height:80px;
     }
     #navi{
         display:none;
@@ -332,7 +333,7 @@ span
     .n1{
         margin-left: 35%;
     }
-    
+
     #para
     {
         width: fit-content;
@@ -423,13 +424,25 @@ span
         display: grid;
         
     }
-    html, body {
-        margin: 0;
-        padding: 0;
-        min-height: 100%;
-        width: 100%;
+    #main{
+        scale:initial;
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
     }
-    
-    
-    
+    #header{
+        height: 200px;
+    }
+    #name{
+        font-size: 100px;
+    }
+    #logo img{
+        width: 200px;
+        height:200px;
+    }
+    i #toggle{
+        width: 150px;
+        height:150px;
+    }
+
 }
